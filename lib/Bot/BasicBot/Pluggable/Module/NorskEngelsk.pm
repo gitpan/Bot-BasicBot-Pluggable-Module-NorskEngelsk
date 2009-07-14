@@ -11,7 +11,7 @@ use LWP::Simple ();
 use LWP::UserAgent ();
 use WebService::Google::Language ();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our $GWS;
 our $URL = 'http://www.google.com/translate_t?sl=no&dl=en&text=%s';
@@ -173,6 +173,8 @@ L<http://search.cpan.org/dist/Bot-BasicBot-Pluggable-Module-NorskEngelsk>
 =head1 SEE ALSO
 
 L<Bot::BasicBot::Pluggable>
+
+L<WebService::Google::Language>
 
 =head1 AUTHOR
 

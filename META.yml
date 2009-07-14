@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Bot-BasicBot-Pluggable-Module-NorskEngelsk
-version:            0.01
+version:            0.02
 abstract:           Translate Norwegian into English
 author:
     - Cosimo Streppone <cosimo@cpan.org>
@@ -10,7 +10,12 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
     Bot::BasicBot::Pluggable:  0
+    CGI:                  0
+    HTML::Entities:       0
+    LWP::Simple:          0
+    LWP::UserAgent:       0
     Test::More:           0
+    WebService::Google::Language:  0
 no_index:
     directory:
         - t
